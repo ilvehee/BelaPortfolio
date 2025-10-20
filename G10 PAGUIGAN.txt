@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BELA ANANIAH G. PAGUIGAN</title>
+</head>
+<body style="background-color:#ffdbdc; text-align:center; font-size:30px;">
+
+<h1 title="My Reflection" style="font-family:Luminari; font-size:80px; text-align:center; background-color:#fff0f0; color:#a8484a;">
+˖ ᯓ★ <b>TLE Reflection</b> &#128209;⊹ ࣪ 
+</h1>
+<hr style="border-top: 15px dotted #f58e90; width: 100%;">
+<p style="font-family:Luminari; font-size:70px; text-align:center; background-color:#a8484a; color:#fff0f0;"> &#128395; <b>3RD Quarter</b> ౨ৎ˚₊ </p>
+
+<hr style="border-top: 5px solid #a8484a; width: 80%;">
+<pre style="font-family:American Typewriter;font-size:75px;color:Snow;text-align:justify;text-shadow: 3px 3px #a33b51;"> 𖦹 <b>Acknowledgements</b> &#128204;
+</pre> 
+<p style="color:#a8484a;;background-color:Snow;font-family:Courier;font-size:30px;text-align:justify;border: 5px dashed Snow;"> 
+<img src="thankyou.jpg" alt="Cute bunny holding a heart" width="170" height="250" style="float: left; margin-right: 15px;">
+<!-- Hi po Sir! I searched margin-right and float on the Internet! -->
+<i> Now that the school year has come to an end, I really want to thank our teacher, <u>Sir Kinji</u>, for always taking the time to explain everything clearly so we, <u>Contentment</u>, could all understand. I also want to thank my <u>family and good friends</u> for always supporting me and encouraging me to keep trying my best. I'm also very grateful to my <u>classmates</u> who were always ready to help, especially when I got stuck or made a mistake on a code. Most of all, I truly thank <u>God</u> for His help, strength, and all the good things that happened during this last part of the year and the whole school year.</i>
+</p>
+<hr style="border-top: 5px solid #a8484a; width: 80%;">
+<pre style="font-family:American Typewriter;font-size:75px;color:Snow;text-align:justify;text-shadow: 3px 3px #a33b51;"> 𖦹 <b>Learning Outcomes</b> &#128204;
+</pre> 
+<p style="color:#a8484a;;background-color:Snow;font-family:Courier;font-size:30px;text-align:justify;border: 5px dashed Snow;"> 
+<img src="workworkwork.jpg" alt="Cute bunny working on it's laptop" width="150" height="150" style="float: left; margin-right: 15px;">
+<i> For this 4th Quarter, I learned how to make different kinds of lists on websites using HTML. I now know how to make lists where the order matters, like steps in a recipe, called an ordered list. I also learned how to make lists wherein the order does not matter. An "Unordered List", like a shopping list. I even learnt about lists wherein you can encode a term, and define it with it's description. It is called a Definition List. You can create a dictionary. Here are examples, from Ordered List to Definition list!
+<ol style="list-style-type:1">
+<li style="color:#a8484a;background-color:Snow;font-family:Courier;font-size:30px;text-align:justify;border: 5px dashed Snow; margin-bottom: 10px; padding: 10px;">First, get your ingredients.</li>
+<li style="color:#a8484a;background-color:Snow;font-family:Courier;font-size:30px;text-align:justify;border: 5px dashed Snow; margin-bottom: 10px; padding: 10px;">Next, mix them together.</li>
+<li style="color:#a8484a;background-color:Snow;font-family:Courier;font-size:30px;text-align:justify;border: 5px dashed Snow; margin-bottom: 10px; padding: 10px;">Finally, bake it!</li>
+</ol>
+<ul>
+<li style="color:#a8484a;background-color:Snow;font-family:Courier;font-size:30px;text-align:justify;border: 5px dashed Snow; margin-bottom: 10px; padding: 10px;">Apples</li>
+<li style="color:#a8484a;background-color:Snow;font-family:Courier;font-size:30px;text-align:justify;border: 5px dashed Snow; margin-bottom: 10px; padding: 10px;">Bananas</li>
+<li style="color:#a8484a;background-color:Snow;font-family:Courier;font-size:30px;text-align:justify;border: 5px dashed Snow; margin-bottom: 10px; padding: 10px;">Milk</li>
+</ul>
+<dl>
+<dt style="color:#a8484a;background-color:Snow;font-family:Courier;font-size:30px;font-weight: bold; padding: 10px; border: 5px dashed Snow; display: block; margin-bottom: 5px;">HTML</dt>
+<dd style="color:#a8484a;background-color:Snow;font-family:Courier;font-size:30px;text-align:justify;border: 5px dashed Snow; margin-left: 0; padding: 10px; margin-bottom: 10px;">The main language for creating web pages.</dd>
+<dt style="color:#a8484a;background-color:Snow;font-family:Courier;font-size:30px;font-weight: bold; padding: 10px; border: 5px dashed Snow; display: block; margin-bottom: 5px;">CSS</dt>
+<dd style="color:#a8484a;background-color:Snow;font-family:Courier;font-size:30px;text-align:justify;border: 5px dashed Snow; margin-left: 0; padding: 10px; margin-bottom: 10px;">A language used to style web pages.</dd>
+</dl>
+</p>
+
+<hr style="border-top: 5px solid #a8484a; width: 80%;">
+<pre style="font-family:American Typewriter;font-size:75px;color:Snow;text-align:justify;text-shadow: 3px 3px #a33b51;"> 𖦹 <b>Challenges Faced</b> &#128204;
+</pre> 
+<p style="color:#a8484a;;background-color:Snow;font-family:Courier;font-size:30px;text-align:justify;border: 5px dashed Snow;"> 
+<i> One thing I found hard was putting lists inside other lists correctly without messing up. Basically, nesting. At first, my code looked wrong, and I had to check how it was set up many times. To get better at this, I practiced more and paid closer attention to how the different parts fit together. Adding pictures was also a little confusing and tedious sometimes because they wouldn't show up. But I learned that I needed to be careful about where the picture file was saved and what kind of file it was. </i>
+</p>
+
+<hr style="border-top: 5px solid #a8484a; width: 80%;">
+<pre style="font-family:American Typewriter;font-size:75px;color:Snow;text-align:justify;text-shadow: 3px 3px #a33b51;"> 𖦹 <b>Real Life Application</b> &#128204;
+</pre> 
+<p style="color:#a8484a;;background-color:Snow;font-family:Courier;font-size:30px;text-align:justify;border: 5px dashed Snow;"> 
+<i> The skills I learned in this class can be useful in many ways. Knowing how to use lists properly can help me organize information in blogs, reports, and presentations. Adding images effectively is important for creating engaging content for websites and social media. These skills can also help me if I ever decide to take a career in web design or digital marketing. </i>
+</p>
+
+<hr style="border-top: 5px solid #a8484a; width: 80%;">
+<pre style="font-family:American Typewriter;font-size:75px;color:Snow;text-align:justify;text-shadow: 3px 3px #a33b51;"> 𖦹 <b>Valuable Lessons</b> &#128204;
+</pre>  
+<p style="color:#a8484a;;background-color:Snow;font-family:Courier;font-size:30px;text-align:justify;border: 5px dashed Snow;"> 
+<i>The most interesting topic for me was learning how to add photos to web pages. It was exciting to see how a simple code could display an image, making a webpage more visually appealing. For me, I think images bring the whole website personality and life! This topic was important because images are very essential in web design, and knowing how to use them correctly makes a webpage more attractive and user-friendly.</i>
+</p>
+
+<hr style="border-top: 5px solid #a8484a; width: 80%;">
+<pre style="font-family:American Typewriter;font-size:75px;color:Snow;text-align:justify;text-shadow: 3px 3px #a33b51;"> 𖦹 <b>Improvements</b> &#128204;
+</pre>  
+<p style="color:#a8484a;;background-color:Snow;font-family:Courier;font-size:30px;text-align:justify;border: 5px dashed Snow;"> 
+<i> One thing I want to improve is how quickly I can find and fix mistakes in my code. Sometimes, I spend too much time trying to figure out what went wrong. In the future, I plan to practice more and ask for my friend's help so that they can guide me through with any errors I make and eventually, I'll be able to prevent these errors. It's especially important to understand the hierarchy of nesting tags, because even a small error there can affect the whole code. This will make my coding process more efficient and less frustrating. </i>
+</p>
+
+<hr style="border-top: 5px solid #a8484a; width: 80%;">
+<pre style="font-family:American Typewriter;font-size:75px;color:Snow;text-align:justify;text-shadow: 3px 3px #a33b51;"> 𖦹 <b>Personal Growth</b> &#128204;
+</pre>  
+<p style="color:#a8484a;;background-color:Snow;font-family:Courier;font-size:30px;text-align:justify;border: 5px dashed Snow;"> 
+<i> I remember my first day of the second quarter, I was really scared of codes. My father is in IT and loves coding, so I wish to become like him too. This class has made me feel more sure of myself when using technology. Now, I understand how web pages are built. And although my websites aren't the best, at least I know most of the codes and design my own webpage independently. I'm already happy with that. Learning about computers and technology has made me see how important it is in our daily lives, and I'm excited to learn more about making websites. </i>
+</p>
+
+<hr style="border-top: 5px solid #a8484a; width: 80%;">
+<pre style="font-family:American Typewriter;font-size:75px;color:Snow;text-align:justify;text-shadow: 3px 3px #a33b51;"> 𖦹 <b>Future Goals</b> &#128204;
+</pre>  
+<p style="color:#a8484a;;background-color:Snow;font-family:Courier;font-size:30px;text-align:justify;border: 5px dashed Snow;"> 
+<i> For my future goals, I want to really master all the lessons I had in Grade 8. This will allow me to confidently approach coding in Grade 9. I am really excited to learn the new tags that will be introduced next year. My aim is to expand my webpage design and content creation abilities! If I  understand the basics well now, I believe I can fully enjoy and excel in the more advanced topics to come.</i>
+</p>
+
+<hr style="border-top: 5px solid #a8484a; width: 80%;">
+<pre style="font-family:American Typewriter;font-size:75px;color:Snow;text-align:justify;text-shadow: 3px 3px #a33b51;"> 𖦹 <b>Conclusion</b> &#128204;
+</pre>  
+<p style="color:#a8484a;;background-color:Snow;font-family:Courier;font-size:30px;text-align:justify;border: 5px dashed Snow;"> 
+<i> In conclusion, I have thought about my experiences in this ICT class. I had a hard time with nested lists and adding pictures, but with practice, I got better. I now see how these skills are helpful in real life. I enjoyed learning how to put photos on web pages the most. I want to get better at finding and fixing coding mistakes. This class helped me feel more comfortable with using technology and understanding how websites are made. My goal is to get really good at what I’ve learned so I can understand harder web development lessons in the future. I am thankful to Sir Kinji for being such a kind and fun ICT teacher. We will miss you, Sir. This is also my last webpage for this school year, and I’m proud of what I’ve learned and created.</i>
+</p>
+
+</pre>
+<hr style="border: 7px dashed #a8484a;">
+<h2 style="font-family:Luminari; font-size:40px; text-align:center; background-color:#a8484a; color:#fff0f0;"> 𖦹 ⋆｡°✩ <b>Bela Ananiah G. Paguigan</b> ✮ ⋆ ˚｡</h2>
+<h3 style="font-family:Luminari; font-size:40px; text-align:center; background-color:#a8484a; color:#fff0f0;"> ✮ ⋆ ˚｡ <b>8-Contentment</b> 𖦹 ⋆｡°✩</h3>
+
+<img src="bunnyyay.png" alt="Cute bunny cheering for you" width="591" height="591">
+
+
+
+</body>
+</html>
