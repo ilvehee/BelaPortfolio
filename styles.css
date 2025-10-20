@@ -1,0 +1,448 @@
+/* --- 1. AO HARU RIDE AESTHETIC PALETTE & NEW GRADIENT --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Existing Colors */
+    --color-blue-spring: #9ADFEA; /* Soft, Light Blue */
+    --color-cream: #FFFDF7; /* Off-White/Creamy Background */
+    --color-pink-blossom: #FADBD8; /* Pale Pink Accent */
+    --color-green-soft: #A9DFBF; /* Mint Green Accent */
+    --color-yellow-soft: #F9E79F; /* Soft Yellow for contrast */
+    --color-text-dark: #333;
+    --color-text-shadow-dark: #6B4687; /* A deep purple/mauve for shadow */
+    --color-text-light: #F5F5F5; /* New: Very light, soft pastel color for all headers */
+    --color-gradient-start: #E6E9F0;
+    --color-gradient-end: #D9EEF7;
+    /* Font Fix: Nunito for body, Quicksand (Bold) for headings */
+    --font-heading: 'Quicksand', sans-serif;
+    --font-body: 'Nunito', sans-serif; /* Swapped to a rounded, reliable font */
+}
+
+body {
+    font-family: var(--font-body); /* Applying the new font */
+    color: var(--color-text-dark);
+    line-height: 1.7;
+    
+    /* Background Gradient (Keeping the cool animation) */
+    background: radial-gradient(
+        circle at 50% 50%,
+        var(--color-cream) 0%,
+        var(--color-blue-spring) 25%,
+        var(--color-pink-blossom) 50%,
+        var(--color-cream) 75%
+    );
+    background-size: 800% 800%;
+    animation: gradientShift 20s ease infinite;
+    
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/* KEYFRAMES for the radial gradient */
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* --- TEXT SHADOW MAGIC --- */
+h1, h2, h3 {
+    font-family: var(--font-heading);
+    font-weight: 700; /* Ensuring Quicksand is BOLD */
+    margin-bottom: 0.5em;
+    color: var(--color-text-light); /* Base color is now light pastel */
+    /* Intense shadow with a dark, contrasting color */
+    text-shadow:
+        2px 2px 0 var(--color-text-shadow-dark),
+        4px 4px 0 rgba(0,0,0,0.1);
+}
+
+/* New Custom Pastel Text Colors for H1 based on shadows */
+/* To make the text Lighter than the shadow color, we'll use a very light version of the shadow color */
+.section-personal h1 {
+    color: #C8F0F7; /* Very light Blue for H1 text */
+    text-shadow:
+        2px 2px 0 var(--color-text-shadow-dark),
+        4px 4px 0 var(--color-blue-spring), /* Shadow is the base blue */
+        6px 6px 0 rgba(0,0,0,0.1);
+}
+.section-tle h1 {
+    color: #FEE9F4; /* Very light Pink for H1 text */
+    text-shadow:
+        2px 2px 0 var(--color-text-shadow-dark),
+        4px 4px 0 var(--color-pink-blossom), /* Shadow is the base pink */
+        6px 6px 0 rgba(0,0,0,0.1);
+}
+.section-ap h1 {
+    color: #C1EAD1; /* Very light Green for H1 text */
+    text-shadow:
+        2px 2px 0 var(--color-text-shadow-dark),
+        4px 4px 0 var(--color-green-soft), /* Shadow is the base green */
+        6px 6px 0 rgba(0,0,0,0.1);
+}
+
+/* Ensure secondary headings (h2/h3) are also explicitly set to the light base color */
+h2 { font-size: 1.8em; color: var(--color-text-light); }
+h3 { color: var(--color-text-light); }
+
+
+/* ... rest of the CSS remains the same from the previous response ... */
+
+.content-section h1 {
+    display: inline-block;
+    padding: 0 10px;
+    margin-bottom: 1.5em;
+}
+
+h1 { font-size: 2.8em; text-align: center; }
+
+/* --- 2. HEADER & NAVIGATION STYLING --- */
+.main-header {
+    background-color: var(--color-cream);
+    box-shadow: 0 4px 15px rgba(154, 223, 234, 0.5);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 0.5em 0;
+}
+.nav-menu {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.nav-item {
+    font-family: var(--font-heading);
+    padding: 0.7em 1.5em;
+    color: var(--color-text-dark);
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+.nav-item:hover {
+    color: white;
+    background-color: var(--color-blue-spring);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+.cta-reflect {
+    background-color: var(--color-pink-blossom);
+    color: white;
+    font-weight: 700;
+}
+.cta-reflect:hover { background-color: var(--color-blue-spring); }
+
+
+/* --- 3. SECTION & CARD STYLING --- */
+
+.content-section {
+    padding: 100px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-bottom: 5px dashed var(--color-pink-blossom);
+    position: relative;
+    perspective: 1px;
+    transform-style: preserve-3d;
+}
+
+/* Card Styling */
+.card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid var(--color-pink-blossom);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 25px;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(154, 223, 234, 0.7);
+}
+
+/* Details/Summary for Clickable Content (Personal/TLE) */
+details { padding: 0; }
+details > summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 25px;
+    transition: background-color 0.4s ease;
+}
+details[open] > summary {
+    background-color: var(--color-yellow-soft);
+    border-radius: 15px 15px 0 0;
+}
+details > summary::-webkit-details-marker { display: none; }
+
+/* Summary h2 color fix to use the light base color */
+summary h2 {
+    margin: 0;
+    transition: color 0.3s, transform 0.3s;
+    color: var(--color-text-light); /* Light text color */
+    text-shadow:
+        1.5px 1.5px 0 var(--color-text-shadow-dark),
+        3px 3px 0 var(--color-pink-blossom),
+        4px 4px 0 rgba(0,0,0,0.1);
+}
+summary:hover h2 {
+    color: var(--color-text-light);
+    transform: translateX(8px);
+    text-shadow:
+        1.5px 1.5px 0 var(--color-text-shadow-dark),
+        3px 3px 0 var(--color-blue-spring),
+        4px 4px 0 rgba(0,0,0,0.1);
+}
+
+.details-content {
+    padding: 0 25px 25px 25px;
+    border-top: 1px dashed var(--color-pink-blossom);
+    margin-top: 0;
+}
+details[open] .details-content { animation: fadeIn 0.5s ease-out; }
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* New: Styling for the two-column layout */
+.two-column {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.two-column ul {
+    list-style: none;
+    padding: 0;
+    line-height: 2.2;
+}
+.picture-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.picture-grid img {
+    height: 100px;
+    object-fit: cover;
+}
+
+/* --- 4. FLIP CARD STYLING (Araling Panlipunan) --- */
+.section-ap .ap-lesson-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+    perspective: 1000px;
+}
+.flip-card {
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 15px;
+}
+.flip-card:hover .flip-card-inner,
+.flip-card:focus-within .flip-card-inner {
+    transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.flip-card-front {
+    background-color: var(--color-cream);
+    color: var(--color-text-light);
+    border: 5px solid;
+    cursor: pointer;
+}
+.card-demand {
+    border-color: var(--color-blue-spring);
+    /* Explicitly setting front card h2 text to light blue */
+    text-shadow:
+        1.5px 1.5px 0 var(--color-text-shadow-dark),
+        3px 3px 0 var(--color-blue-spring),
+        4px 4px 0 rgba(0,0,0,0.1);
+}
+.card-supply {
+    border-color: var(--color-pink-blossom);
+    text-shadow:
+        1.5px 1.5px 0 var(--color-text-shadow-dark),
+        3px 3px 0 var(--color-pink-blossom),
+        4px 4px 0 rgba(0,0,0,0.1);
+}
+.card-elasticity {
+    border-color: var(--color-green-soft);
+    text-shadow:
+        1.5px 1.5px 0 var(--color-text-shadow-dark),
+        3px 3px 0 var(--color-green-soft),
+        4px 4px 0 rgba(0,0,0,0.1);
+}
+
+.flip-card-back {
+    background-color: var(--color-blue-spring);
+    color: white;
+    transform: rotateY(180deg);
+    border: 5px solid white;
+    text-align: left;
+    line-height: 1.5;
+}
+.flip-card-back h3 {
+    color: var(--color-text-light);
+    text-align: center;
+    text-shadow:
+        1.5px 1.5px 0 var(--color-text-shadow-dark),
+        3px 3px 0 var(--color-yellow-soft);
+}
+.flip-card-back a {
+    color: var(--color-yellow-soft);
+    font-weight: 700;
+    margin-top: auto;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.ap-images {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.ap-images img {
+    height: 80px;
+    width: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+.ap-images img:hover {
+    transform: scale(1.1);
+}
+
+
+/* --- 5. MODAL STYLING (Reflection Page) --- */
+.modal-page {
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s;
+    background: rgba(154, 223, 234, 0.98);
+    z-index: 2000;
+}
+.modal-page:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+}
+.modal-content {
+    background: var(--color-cream);
+    padding: 60px 40px;
+    max-width: 800px;
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+    overflow-y: auto;
+    max-height: 90vh;
+    position: relative;
+    animation: modalSlideDown 0.6s ease-out;
+}
+@keyframes modalSlideDown {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.reflection-answer {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid var(--color-green-soft);
+    transition: all 0.3s;
+}
+.reflection-answer:hover {
+    background-color: var(--color-pink-blossom);
+    border-color: var(--color-text-shadow-dark);
+    transform: scale(1.01);
+}
+.reflection-card h2 {
+    color: var(--color-text-light);
+    text-shadow:
+        1.5px 1.5px 0 var(--color-text-shadow-dark),
+        3px 3px 0 var(--color-blue-spring),
+        4px 4px 0 rgba(0,0,0,0.1);
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--color-blue-spring);
+    transition: color 0.3s, text-shadow 0.3s;
+}
+a:hover {
+    color: var(--color-pink-blossom);
+    text-shadow: 0 0 5px var(--color-blue-spring);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--color-cream);
+    color: var(--color-text-dark);
+    font-size: 0.9em;
+    border-top: 5px dashed var(--color-pink-blossom);
+}
+
+/* --- 6. RESPONSIVENESS --- */
+@media (max-width: 768px) {
+    .nav-menu {
+        flex-wrap: wrap;
+        padding: 1em 0;
+    }
+    .nav-item {
+        flex-basis: 45%;
+        text-align: center;
+        margin: 5px 0;
+    }
+    .two-column {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .two-column ul {
+        line-height: 1.8;
+    }
+    h1 { font-size: 2em; }
+    h2 { font-size: 1.3em; }
+    .modal-content {
+        padding: 40px 20px;
+        margin: 20px auto;
+    }
+    .modal-close-button {
+        top: 15px;
+        right: 15px;
+        padding: 8px 12px;
+        font-size: 0.9em;
+    }
+    .ap-images {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
